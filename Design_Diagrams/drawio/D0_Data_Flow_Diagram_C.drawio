@@ -1,0 +1,184 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="flowC-logging-play">
+    <mxGraphModel dx="1858" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;perimeterSpacing=0;roundedPerimeter=1;arcSize=2;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="773" width="1504" x="180" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="b-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="230" width="1468" x="198" y="703" as="geometry" />
+        </mxCell>
+        <mxCell id="b-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="230" width="1468" x="198" y="453" as="geometry" />
+        </mxCell>
+        <mxCell id="b-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="&lt;b&gt;Tap a Record (NFC Reader)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="782" y="453" as="geometry" />
+        </mxCell>
+        <mxCell id="b-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="&lt;b&gt;Manual Play (App)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="782" y="703" as="geometry" />
+        </mxCell>
+        <mxCell id="b-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#393C56;fontStyle=1" value="&lt;span style=&quot;line-height: 115%;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;Spinlog: D0 Data-Flow Diagram C - Logging a Play&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="800" x="210" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="b-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;align=left;spacingLeft=4;" value="&lt;b&gt;Goal:&lt;/b&gt; Catalog your vinyl records, track their value, and log every play" vertex="1">
+          <mxGeometry height="60" width="231" x="210" y="283.5" as="geometry" />
+        </mxCell>
+        <mxCell id="b-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#ffe6cc;strokeColor=#B18400;dashed=1;strokeWidth=2;fontStyle=1" value="E1: &lt;span style=&quot;font-weight: normal;&quot;&gt;Tag held to reader&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="134" x="215" y="558" as="geometry" />
+        </mxCell>
+        <mxCell id="b-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Collector taps the tag against the reader" vertex="1">
+          <mxGeometry height="40" width="146" x="209" y="631" as="geometry" />
+        </mxCell>
+        <mxCell id="b-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=none;roundedPerimeter=1;fontStyle=1;strokeWidth=2;" value="C2: &lt;span style=&quot;font-weight: normal;&quot;&gt;Read tag UID, build play event&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="134" x="475" y="558" as="geometry" />
+        </mxCell>
+        <mxCell id="b-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=none;roundedPerimeter=1;fontStyle=1;strokeWidth=2;" value="C3: &lt;span style=&quot;font-weight: normal;&quot;&gt;Validate token, check event_id&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="134" x="735" y="558" as="geometry" />
+        </mxCell>
+        <mxCell id="b-13" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" value="&lt;b&gt;C7: &lt;/b&gt;Look up tag, save play" vertex="1">
+          <mxGeometry height="79.5" width="131" x="996.5" y="553.25" as="geometry" />
+        </mxCell>
+        <mxCell id="b-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=none;roundedPerimeter=1;fontStyle=1;strokeWidth=2;" value="C3: &lt;span style=&quot;font-weight: normal;&quot;&gt;Build response&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="134" x="1255" y="558" as="geometry" />
+        </mxCell>
+        <mxCell id="b-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=none;roundedPerimeter=1;fontStyle=1;strokeWidth=2;" value="C2: &lt;span style=&quot;font-weight: normal;&quot;&gt;Show result to collector&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="134" x="1515" y="558" as="geometry" />
+        </mxCell>
+        <mxCell id="b-16" edge="1" parent="1" source="b-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="b-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b-17" edge="1" parent="1" source="b-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="b-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b-18" edge="1" parent="1" source="b-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="b-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b-19" edge="1" parent="1" source="b-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="b-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b-20" edge="1" parent="1" source="b-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="b-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="tag_uid;&lt;div&gt;raw UID bytes;&lt;/div&gt;&lt;div&gt;I2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="56" width="130" x="347" y="534" as="geometry" />
+        </mxCell>
+        <mxCell id="b-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="pairing_token, tag_uid, played_at, event_id;&lt;div&gt;JSON;&lt;/div&gt;&lt;div&gt;I3&lt;/div&gt;" vertex="1">
+          <mxGeometry height="88" width="130" x="607" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="b-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="tag_uid lookup + play insert (event_id, played_at);&lt;div&gt;SQL;&lt;/div&gt;&lt;div&gt;I13&lt;/div&gt;" vertex="1">
+          <mxGeometry height="88" width="130" x="867" y="502" as="geometry" />
+        </mxCell>
+        <mxCell id="b-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="stored play row (play_id, record_id);&lt;div&gt;result rows;&lt;/div&gt;&lt;div&gt;I13&lt;/div&gt;" vertex="1">
+          <mxGeometry height="72" width="130" x="1127" y="518" as="geometry" />
+        </mxCell>
+        <mxCell id="b-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="play_id, record_id, status (logged / duplicate / unassigned);&lt;div&gt;JSON;&lt;/div&gt;&lt;div&gt;I3&lt;/div&gt;" vertex="1">
+          <mxGeometry height="104" width="130" x="1387" y="493" as="geometry" />
+        </mxCell>
+        <mxCell id="b-26" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="88" width="72" x="246" y="799" as="geometry" />
+        </mxCell>
+        <mxCell id="b-27" parent="b-26" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="88" width="72" as="geometry" />
+        </mxCell>
+        <mxCell id="b-28" parent="b-26" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="User" vertex="1">
+          <mxGeometry height="60" width="32" x="20" y="6" as="geometry" />
+        </mxCell>
+        <mxCell id="b-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Adds a play for a record by hand" vertex="1">
+          <mxGeometry height="30" width="120" x="222" y="889" as="geometry" />
+        </mxCell>
+        <mxCell id="b-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=none;roundedPerimeter=1;fontStyle=1;strokeWidth=2;" value="C1: &lt;span style=&quot;font-weight: normal;&quot;&gt;Choose record, add play&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="134" x="475" y="808" as="geometry" />
+        </mxCell>
+        <mxCell id="b-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=none;roundedPerimeter=1;fontStyle=1;strokeWidth=2;" value="C3: &lt;span style=&quot;font-weight: normal;&quot;&gt;Validate request, run SQL query&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="134" x="735" y="808" as="geometry" />
+        </mxCell>
+        <mxCell id="b-32" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" value="&lt;b&gt;C7: &lt;/b&gt;Save play" vertex="1">
+          <mxGeometry height="79.5" width="131" x="996.5" y="803.25" as="geometry" />
+        </mxCell>
+        <mxCell id="b-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=none;roundedPerimeter=1;fontStyle=1;strokeWidth=2;" value="C3: &lt;span style=&quot;font-weight: normal;&quot;&gt;Count plays for record&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="134" x="1255" y="808" as="geometry" />
+        </mxCell>
+        <mxCell id="b-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=none;roundedPerimeter=1;fontStyle=1;strokeWidth=2;" value="C1: &lt;span style=&quot;font-weight: normal;&quot;&gt;Display updated play count&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="134" x="1515" y="808" as="geometry" />
+        </mxCell>
+        <mxCell id="b-35" edge="1" parent="1" source="b-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="b-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b-36" edge="1" parent="1" source="b-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="b-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b-37" edge="1" parent="1" source="b-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="b-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b-38" edge="1" parent="1" source="b-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="b-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b-39" edge="1" parent="1" source="b-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="b-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="chooses record, taps Add play;&lt;div&gt;touch events;&lt;/div&gt;&lt;div&gt;I1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="72" width="130" x="331.5" y="768" as="geometry" />
+        </mxCell>
+        <mxCell id="b-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="record_id, played_at (optional) + session_token;&lt;div&gt;JSON;&lt;/div&gt;&lt;div&gt;I8&lt;/div&gt;" vertex="1">
+          <mxGeometry height="88" width="130" x="607" y="752" as="geometry" />
+        </mxCell>
+        <mxCell id="b-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="validated play, scoped by user_id;&lt;div&gt;SQL;&lt;/div&gt;&lt;div&gt;I13&lt;/div&gt;" vertex="1">
+          <mxGeometry height="72" width="130" x="867" y="768" as="geometry" />
+        </mxCell>
+        <mxCell id="b-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="stored play row with new play_id;&lt;div&gt;result rows;&lt;/div&gt;&lt;div&gt;I13&lt;/div&gt;" vertex="1">
+          <mxGeometry height="72" width="130" x="1127" y="768" as="geometry" />
+        </mxCell>
+        <mxCell id="b-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="play_id + play counts for the record;&lt;div&gt;JSON;&lt;/div&gt;&lt;div&gt;I8&lt;/div&gt;" vertex="1">
+          <mxGeometry height="72" width="130" x="1387" y="768" as="geometry" />
+        </mxCell>
+        <mxCell id="b-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;align=left;" value="&lt;b&gt;Timing:&lt;/b&gt; tap to confirmation signal within 2 seconds (one I3 round trip plus one I13 write).&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="1200" x="210" y="948" as="geometry" />
+        </mxCell>
+        <mxCell id="b-46" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="159.5" width="530.5" x="1135.5" y="240.5" as="geometry" />
+        </mxCell>
+        <mxCell id="b-47" parent="b-46" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;container=0;" value="" vertex="1">
+          <mxGeometry height="159.5" width="521.5" as="geometry" />
+        </mxCell>
+        <mxCell id="b-48" parent="b-46" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;container=0;" value="Legend" vertex="1">
+          <mxGeometry height="30" width="95.7" x="212.9" as="geometry" />
+        </mxCell>
+        <mxCell id="b-49" parent="b-46" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;roundedPerimeter=1;strokeWidth=2;container=0;" value="" vertex="1">
+          <mxGeometry height="25" width="72" x="15" y="58.5" as="geometry" />
+        </mxCell>
+        <mxCell id="b-50" parent="b-46" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;container=0;" value="Component" vertex="1">
+          <mxGeometry height="30" width="89.5" x="90" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="b-51" parent="b-46" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#ffe6cc;strokeColor=#B18400;dashed=1;strokeWidth=2;fontStyle=1;container=0;" value="" vertex="1">
+          <mxGeometry height="25" width="72" x="15" y="118.5" as="geometry" />
+        </mxCell>
+        <mxCell id="b-52" parent="b-46" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;container=0;" value="External System" vertex="1">
+          <mxGeometry height="30" width="120" x="87" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="b-53" parent="b-46" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fixDash=0;multiple=0;container=0;" value="" vertex="1">
+          <mxGeometry height="47" width="48" x="224" y="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="b-54" parent="b-46" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;container=0;" value="Database" vertex="1">
+          <mxGeometry height="30" width="89.5" x="276" y="58.5" as="geometry" />
+        </mxCell>
+        <mxCell id="b-55" parent="b-46" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;container=0;" value="" vertex="1">
+          <mxGeometry height="40" width="35" x="230.5" y="111" as="geometry" />
+        </mxCell>
+        <mxCell id="b-56" parent="b-46" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;container=0;" value="User" vertex="1">
+          <mxGeometry height="30" width="89.5" x="262" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="b-57" edge="1" parent="b-46" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="386" y="73" as="sourcePoint" />
+            <mxPoint x="446.67" y="73" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b-58" parent="b-46" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;container=0;" value="Data Flow" vertex="1">
+          <mxGeometry height="30" width="89.5" x="441" y="58.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
